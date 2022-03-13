@@ -323,6 +323,13 @@ etag@~1.8.1:
   resolved "http://nuget.monopoly.su/npm/NPM-Pull/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+express-ws@^5.0.2:
+  version "5.0.2"
+  resolved "http://nuget.monopoly.su/npm/NPM-Pull/express-ws/-/express-ws-5.0.2.tgz#5b02d41b937d05199c6c266d7cc931c823bda8eb"
+  integrity sha512-0uvmuk61O9HXgLhGl3QhNSEtRsQevtmbL94/eILaliEADZBHZOQUAiHFrGPrgsjikohyrmSG5g+sCfASTt0lkQ==
+  dependencies:
+    ws "^7.4.6"
+
 express@^4.17.1:
   version "4.17.3"
   resolved "http://nuget.monopoly.su/npm/NPM-Pull/express/-/express-4.17.3.tgz#f6c7302194a4fb54271b73a1fe7a06478c8f85a1"
@@ -1103,7 +1110,7 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-ws@^7.2.3:
+ws@^7.2.3, ws@^7.4.6:
   version "7.5.7"
   resolved "http://nuget.monopoly.su/npm/NPM-Pull/ws/-/ws-7.5.7.tgz#9e0ac77ee50af70d58326ecff7e85eb3fa375e67"
   integrity sha1-ngrHfuUK9w1YMm7P9+hes/o3Xmc=
