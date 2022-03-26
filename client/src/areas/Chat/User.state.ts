@@ -12,5 +12,4 @@ export class UserState {
 	setUser = (user: string) => {
 		this.user = user;
 	}
-
 }
